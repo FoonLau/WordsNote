@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F75D2FB21F40476F0012E3F1 /* WordNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75D2FB11F40476F0012E3F1 /* WordNotes.swift */; };
+		F771B7881F07D7BC00AD13D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F771B7871F07D7BC00AD13D4 /* AppDelegate.swift */; };
+		F771B78A1F07D7BC00AD13D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F771B7891F07D7BC00AD13D4 /* ViewController.swift */; };
+		F771B78D1F07D7BC00AD13D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F771B78B1F07D7BC00AD13D4 /* Main.storyboard */; };
+		F771B78F1F07D7BC00AD13D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F771B78E1F07D7BC00AD13D4 /* Assets.xcassets */; };
+		F771B7921F07D7BC00AD13D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F771B7901F07D7BC00AD13D4 /* LaunchScreen.storyboard */; };
+		F771B79D1F07D7BC00AD13D4 /* WordsNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F771B79C1F07D7BC00AD13D4 /* WordsNoteTests.swift */; };
+		F771B7A81F07D7BC00AD13D4 /* WordsNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F771B7A71F07D7BC00AD13D4 /* WordsNoteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F771B7991F07D7BC00AD13D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F771B77C1F07D7BC00AD13D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F771B7831F07D7BC00AD13D4;
+			remoteInfo = WordsNote;
+		};
+		F771B7A41F07D7BC00AD13D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F771B77C1F07D7BC00AD13D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F771B7831F07D7BC00AD13D4;
+			remoteInfo = WordsNote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F75D2FB11F40476F0012E3F1 /* WordNotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordNotes.swift; sourceTree = "<group>"; };
+		F771B7841F07D7BC00AD13D4 /* WordsNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordsNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F771B7871F07D7BC00AD13D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F771B7891F07D7BC00AD13D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F771B78C1F07D7BC00AD13D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F771B78E1F07D7BC00AD13D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F771B7911F07D7BC00AD13D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F771B7931F07D7BC00AD13D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F771B7981F07D7BC00AD13D4 /* WordsNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordsNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F771B79C1F07D7BC00AD13D4 /* WordsNoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsNoteTests.swift; sourceTree = "<group>"; };
+		F771B79E1F07D7BC00AD13D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F771B7A31F07D7BC00AD13D4 /* WordsNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordsNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F771B7A71F07D7BC00AD13D4 /* WordsNoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsNoteUITests.swift; sourceTree = "<group>"; };
+		F771B7A91F07D7BC00AD13D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F771B7811F07D7BC00AD13D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F771B7951F07D7BC00AD13D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F771B7A01F07D7BC00AD13D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F771B77B1F07D7BC00AD13D4 = {
+			isa = PBXGroup;
+			children = (
+				F771B7861F07D7BC00AD13D4 /* WordsNote */,
+				F771B79B1F07D7BC00AD13D4 /* WordsNoteTests */,
+				F771B7A61F07D7BC00AD13D4 /* WordsNoteUITests */,
+				F771B7851F07D7BC00AD13D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F771B7851F07D7BC00AD13D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F771B7841F07D7BC00AD13D4 /* WordsNote.app */,
+				F771B7981F07D7BC00AD13D4 /* WordsNoteTests.xctest */,
+				F771B7A31F07D7BC00AD13D4 /* WordsNoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F771B7861F07D7BC00AD13D4 /* WordsNote */ = {
+			isa = PBXGroup;
+			children = (
+				F771B7871F07D7BC00AD13D4 /* AppDelegate.swift */,
+				F771B7891F07D7BC00AD13D4 /* ViewController.swift */,
+				F771B78B1F07D7BC00AD13D4 /* Main.storyboard */,
+				F771B78E1F07D7BC00AD13D4 /* Assets.xcassets */,
+				F771B7901F07D7BC00AD13D4 /* LaunchScreen.storyboard */,
+				F771B7931F07D7BC00AD13D4 /* Info.plist */,
+				F75D2FB11F40476F0012E3F1 /* WordNotes.swift */,
+			);
+			path = WordsNote;
+			sourceTree = "<group>";
+		};
+		F771B79B1F07D7BC00AD13D4 /* WordsNoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				F771B79C1F07D7BC00AD13D4 /* WordsNoteTests.swift */,
+				F771B79E1F07D7BC00AD13D4 /* Info.plist */,
+			);
+			path = WordsNoteTests;
+			sourceTree = "<group>";
+		};
+		F771B7A61F07D7BC00AD13D4 /* WordsNoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F771B7A71F07D7BC00AD13D4 /* WordsNoteUITests.swift */,
+				F771B7A91F07D7BC00AD13D4 /* Info.plist */,
+			);
+			path = WordsNoteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F771B7831F07D7BC00AD13D4 /* WordsNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F771B7AC1F07D7BC00AD13D4 /* Build configuration list for PBXNativeTarget "WordsNote" */;
+			buildPhases = (
+				F771B7801F07D7BC00AD13D4 /* Sources */,
+				F771B7811F07D7BC00AD13D4 /* Frameworks */,
+				F771B7821F07D7BC00AD13D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordsNote;
+			productName = WordsNote;
+			productReference = F771B7841F07D7BC00AD13D4 /* WordsNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F771B7971F07D7BC00AD13D4 /* WordsNoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F771B7AF1F07D7BC00AD13D4 /* Build configuration list for PBXNativeTarget "WordsNoteTests" */;
+			buildPhases = (
+				F771B7941F07D7BC00AD13D4 /* Sources */,
+				F771B7951F07D7BC00AD13D4 /* Frameworks */,
+				F771B7961F07D7BC00AD13D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F771B79A1F07D7BC00AD13D4 /* PBXTargetDependency */,
+			);
+			name = WordsNoteTests;
+			productName = WordsNoteTests;
+			productReference = F771B7981F07D7BC00AD13D4 /* WordsNoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F771B7A21F07D7BC00AD13D4 /* WordsNoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F771B7B21F07D7BC00AD13D4 /* Build configuration list for PBXNativeTarget "WordsNoteUITests" */;
+			buildPhases = (
+				F771B79F1F07D7BC00AD13D4 /* Sources */,
+				F771B7A01F07D7BC00AD13D4 /* Frameworks */,
+				F771B7A11F07D7BC00AD13D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F771B7A51F07D7BC00AD13D4 /* PBXTargetDependency */,
+			);
+			name = WordsNoteUITests;
+			productName = WordsNoteUITests;
+			productReference = F771B7A31F07D7BC00AD13D4 /* WordsNoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F771B77C1F07D7BC00AD13D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Foon Lau";
+				TargetAttributes = {
+					F771B7831F07D7BC00AD13D4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					F771B7971F07D7BC00AD13D4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F771B7831F07D7BC00AD13D4;
+					};
+					F771B7A21F07D7BC00AD13D4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F771B7831F07D7BC00AD13D4;
+					};
+				};
+			};
+			buildConfigurationList = F771B77F1F07D7BC00AD13D4 /* Build configuration list for PBXProject "WordsNote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F771B77B1F07D7BC00AD13D4;
+			productRefGroup = F771B7851F07D7BC00AD13D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F771B7831F07D7BC00AD13D4 /* WordsNote */,
+				F771B7971F07D7BC00AD13D4 /* WordsNoteTests */,
+				F771B7A21F07D7BC00AD13D4 /* WordsNoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F771B7821F07D7BC00AD13D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F771B7921F07D7BC00AD13D4 /* LaunchScreen.storyboard in Resources */,
+				F771B78F1F07D7BC00AD13D4 /* Assets.xcassets in Resources */,
+				F771B78D1F07D7BC00AD13D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F771B7961F07D7BC00AD13D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F771B7A11F07D7BC00AD13D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F771B7801F07D7BC00AD13D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75D2FB21F40476F0012E3F1 /* WordNotes.swift in Sources */,
+				F771B78A1F07D7BC00AD13D4 /* ViewController.swift in Sources */,
+				F771B7881F07D7BC00AD13D4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F771B7941F07D7BC00AD13D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F771B79D1F07D7BC00AD13D4 /* WordsNoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F771B79F1F07D7BC00AD13D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F771B7A81F07D7BC00AD13D4 /* WordsNoteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F771B79A1F07D7BC00AD13D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F771B7831F07D7BC00AD13D4 /* WordsNote */;
+			targetProxy = F771B7991F07D7BC00AD13D4 /* PBXContainerItemProxy */;
+		};
+		F771B7A51F07D7BC00AD13D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F771B7831F07D7BC00AD13D4 /* WordsNote */;
+			targetProxy = F771B7A41F07D7BC00AD13D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F771B78B1F07D7BC00AD13D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F771B78C1F07D7BC00AD13D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F771B7901F07D7BC00AD13D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F771B7911F07D7BC00AD13D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F771B7AA1F07D7BC00AD13D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F771B7AB1F07D7BC00AD13D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F771B7AD1F07D7BC00AD13D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WordsNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Foon.WordsNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F771B7AE1F07D7BC00AD13D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WordsNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Foon.WordsNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F771B7B01F07D7BC00AD13D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WordsNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Foon.WordsNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordsNote.app/WordsNote";
+			};
+			name = Debug;
+		};
+		F771B7B11F07D7BC00AD13D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WordsNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Foon.WordsNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordsNote.app/WordsNote";
+			};
+			name = Release;
+		};
+		F771B7B31F07D7BC00AD13D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WordsNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Foon.WordsNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WordsNote;
+			};
+			name = Debug;
+		};
+		F771B7B41F07D7BC00AD13D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WordsNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Foon.WordsNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WordsNote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F771B77F1F07D7BC00AD13D4 /* Build configuration list for PBXProject "WordsNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F771B7AA1F07D7BC00AD13D4 /* Debug */,
+				F771B7AB1F07D7BC00AD13D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F771B7AC1F07D7BC00AD13D4 /* Build configuration list for PBXNativeTarget "WordsNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F771B7AD1F07D7BC00AD13D4 /* Debug */,
+				F771B7AE1F07D7BC00AD13D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F771B7AF1F07D7BC00AD13D4 /* Build configuration list for PBXNativeTarget "WordsNoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F771B7B01F07D7BC00AD13D4 /* Debug */,
+				F771B7B11F07D7BC00AD13D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F771B7B21F07D7BC00AD13D4 /* Build configuration list for PBXNativeTarget "WordsNoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F771B7B31F07D7BC00AD13D4 /* Debug */,
+				F771B7B41F07D7BC00AD13D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F771B77C1F07D7BC00AD13D4 /* Project object */;
+}
